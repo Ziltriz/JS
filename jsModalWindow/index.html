@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+     <link href="css/modal.css" rel="stylesheet">
+     <title>JS Practical</title>
+
+</head>
+<body>
+     <div class="container">
+          <h1>JavaScript Practical</h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed suscipit dignissimos debitis quis impedit! Odio magni corporis aliquam iusto minus, porro dolores accusamus ipsa quaerat nemo dolor voluptatibus? Similique aut quia eos ipsa quae quaerat perspiciatis possimus rerum doloribus tenetur blanditiis tempora iste error quam, fuga mollitia rem. Id beatae maiores laboriosam velit vitae, fugit repellendus voluptatem aliquam ipsam reiciendis repudiandae nisi ratione dolore dicta! Corporis, nostrum natus quo reiciendis molestiae eius, maiores placeat doloribus ut magnam accusamus labore, ipsam itaque saepe? Soluta, esse? Recusandae saepe ab ex ipsum minus, reprehenderit iusto alias dolorem molestiae ratione nesciunt error! Ipsa, at.</p>
+     </div>
+
+     <form >
+          <div class="form_group">
+               <label for="SetMyTitle">Set title</label>
+               <input id ="SetMyTitle" class="form_control" aria-describedby="titleHelp">
+               <small id="titleHelp">Put expected title here</small>          
+          </div>
+          <div class="form_group">
+               <label for="SetMyContent">Content</label>
+               <textarea id ="SetMyContent" class="form_control" aria-describedby="titleHelp"></textarea>
+               <small id="titleHelp">Put expected content here</small> 
+          </div>
+          <div class="form_group">
+               <label for="SetMyWidth">Width</label>
+               <input type="text" id ="SetMyWidth" class="form_control" aria-describedby="titleHelp" value="400"></textarea>
+               <small id="titleHelp">Put expected width here</small> 
+          </div>
+          <div class="form_group">
+               <label class="form-check-label" for="SetModalClosable">Закрываемое окно</label>
+               <input type="checkbox" class="form-check-input" id="SetModalClosable" checked="true">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+     </form>
+
+     
+     
+
+
+
+
+
+     <script src="base.js"></script>
+     <script src="plugins/modal.js"></script>
+     <script src="index.js"></script>
+     </body>
+</html>
